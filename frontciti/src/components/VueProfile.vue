@@ -300,12 +300,12 @@
             },
             MoreView(){
                 ax.post("views/"+this.per.id+'/more/')
-                    .then(response => { console.log(response.data.message )})
+                    .then()
             },
             
             MoreClick(){
                 ax.post("clics/"+this.per.id+'/more/')
-                    .then(response => { console.log(response.data.message )})
+                    .then()
             },
             
 

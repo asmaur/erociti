@@ -66,8 +66,8 @@
             },
             setCookie(){
                 
-                this.$cookies.set("erociti_access_token", "true", '10M');
-                console.log(this.$cookies.get("erociti_access_token"));
+                this.$cookies.set("erociti_access_token", "true", '1y');
+                //console.log(this.$cookies.get("erociti_access_token"));
                 this.$router.push({name: "home"})
                 window.location.reload()
             },

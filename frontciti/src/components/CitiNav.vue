@@ -36,7 +36,7 @@
                         </li>
 
                         <li class="nav-item text-center" style="margin-left: 1.5rem; border: 2px solid #fff; margin-top: .2rem;">
-                            <a href="http://www.ads.erociti.com" target="_blank" class="nav-link">Anuncie !</a>
+                            <a href="https://www.ads.erociti.com" target="_blank" class="nav-link">Anuncie !</a>
                         </li>
 
                     </ul>
