@@ -5,7 +5,7 @@ export default axios.create({
     baseURL: 'https://api.erociti.com/citi/',
     headers: {
         'Content-Type': 'application/json',
-        'Authorization': "Token 941cccbfa203ca7dfbcca418c61a6d357b4e30e5"
+        'Authorization': "Token f2e310a052f8cdae248c2eaba5670e6a34744f47"
     },
     xsrfCookieName: 'csrftoken',
     xsrfHeaderName: 'X-CSRFToken',
