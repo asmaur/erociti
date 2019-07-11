@@ -22,6 +22,7 @@
     "owl.carousel": "^2.3.4",
     "popper.js": "^1.15.0",
     "vue": "^2.6.10",
+    "vue-analytics": "^5.17.0",
     "vue-cookies": "^1.5.13",
     "vue-router": "^3.0.3",
     "vuejs-noty": "^0.1.3",

@@ -57,8 +57,14 @@ library.add(faPhone, faTwitter, faWhatsapp, faInstagram, faFeatherAlt, faStar, f
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 
+import VueAnalytics from 'vue-analytics'
 
-Vue.config.productionTip = false
+Vue.use(VueAnalytics, {
+  id: 'UA-143260985-1'
+})
+
+
+Vue.config.productionTip = true
 
 new Vue({
   router,
