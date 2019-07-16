@@ -5,40 +5,17 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-md-4 text-left">
+                <div class="col-md-6 text-left">
                     <p>Legal</p>
                     <ul>
-                        <li> <router-link to="/privacidade" >Privacidade</router-link> </li>
+                       <!-- <li> <router-link to="/privacidade" >Privacidade</router-link> </li> -->
                         <li> <router-link to="/termo-de-uso" >Termos de Uso e Condições</router-link> </li>
                     </ul>
                 </div>
 
-                <div class="col-md-4 text-center">
-                    <p>Social & contact</p>
-
-                  <!--  <div class="wiz-contact">
-                        <a href="https://api.whatsapp.com/send?phone=5551991649141&text=Ol%C3%A1+TREX+Engenharia%2C+quero+conversar+sobre+um+projeto." target="_blank">
-                            <i class="fab fa-whatsapp fa-3x"></i>
-                        </a>
-
-                        <a href="https://t.me/Saqqi_Kraft_Paper_Bags/text='Hello World'" target="_blank">
-                            <i class="fab fa-telegram fa-3x"></i>
-                        </a>
-                        <a href="https://www.instagram.com/trexengenharia/" target="_blank">
-                            <i class="fab fa-instagram fa-3x"></i>
-                        </a>
-                        <a href="https://www.facebook.com/trexengenharia/" target="_blank">
-                            <i class="fab fa-twitter fa-3x"></i>
-                        </a>
-                    </div> -->
-                    <p>
-                        <a href="mailto:contato@erociti.com" target="_blank">contato: contato@erociti.com</a>
-                    </p>
-
-
-                </div>
+             
                 
-                <div class="col-md-4 text-center">
+                <div class="col-md-6 text-center">
                    <h4>Newsletter</h4>
                     <p>Assina nossa e receba conteudo exclusivos.</p>
                     
@@ -59,7 +36,7 @@
                        </li>
                    </ul> -->
 
-                    <p>EroCiti &copy; {{ano}}  | Todos os direitos reservados.
+                    <p style="padding: 1rem;">EroCiti Group &copy; {{ano}}  | Todos os direitos reservados.
                         <br>
 
                     </p>

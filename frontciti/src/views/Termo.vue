@@ -2,12 +2,7 @@
  
      <div>
      <in-nav />
- 
- 
- 
-  <div class="tops">
-    <h1>This is an about Termo de uso</h1>
-  </div>
+     <vue-termo />
   
     </div>
     
@@ -18,12 +13,14 @@
 <script>
     
     import InNav from '@/components/InNav.vue'
+    import VueTermo from '@/components/VueTermo.vue'
     
     export default{
         name: "Termo",
         
         components:{
             InNav,
+            VueTermo,
         }
     }
 

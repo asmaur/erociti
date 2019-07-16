@@ -33,12 +33,12 @@
                         <form @submit.prevent="denunciar">
                             <div class="modal-body">
 
-                                <p>askjhfjshf
-                                    asklfkshlfhlshfls
+                                <p>
+                                    Fazer denúncia neste perfil ?
                                 </p>
                                 <p>
                                     <small>
-                                        Importante:
+                                        Importante: O EroCiti leva a sério o uso indevido de fotografias e investigará qualquer evidência razoável de uso indevido que nos foi fornecido. No entanto, como não é incomum para modelos bem conhecidos e estrelas adultas anunciarem no Eros, ou para artistas adultos anunciarem em vários sites adultos, muitas vezes sob nomes alternativos, as informações fornecidas podem ou não sempre resultar na remoção do anúncio, ou em qualquer ação. Por favor, esteja ciente de que o EroCiti não pode e não dá nenhuma garantia de que (a) o anunciante nas fotos de qualquer anúncio em particular será o mesmo indivíduo que aparece em qualquer data organizada entre um anunciante e você mesmo, (b) que qualquer texto, incluindo o nome do anunciante ou estatísticas que aparecem em um anúncio é preciso ou verdadeiro.
                                     </small>
                                 </p>
 

@@ -10,7 +10,7 @@
 
                     <div class="col-md-8 offset-md-2 text-center">
 
-                        <div style="display: flex; align-items: center; justify-content: space-between; margin: 5.5rem;">
+                        <div style="display: flex; align-items: center; justify-content: space-between; margin-top: 5.5rem;">
                            <font-awesome-icon :icon="['far', 'star']" :style="{ color: '#fff' }" />
 
                             <h2 class=""> {{per.nome}} {{per.sobrenome}} </h2>
@@ -28,7 +28,7 @@
                             <a :href="'tel:+'+per.phone" target="_blank" @click="MoreClick">
                                 <font-awesome-icon :icon="['fas', 'phone']" size="3x" />
                             </a>
-                            <a :href="'https://api.whatsapp.com/send?phone='+per.phone+'&text='" target="_blank" @click="MoreClick">
+                            <a :href="'https://api.whatsapp.com/send?phone='+per.phone+'&text=Ol%C3%A1%2C%20'+per.nome+' '+per.sobrenome+'.%20Encontrei%20voc%C3%AA%20na%20Erociti.com.'" target="_blank" @click="MoreClick">
                                 <font-awesome-icon :icon="['fab', 'whatsapp']" size="3x" />
                             </a>
 
