@@ -64,7 +64,7 @@
 
                 </div>
 
-                <img :src="modelo.perfil.capa" class="img-fluid" alt="">
+                <img :src="img_url+modelo.perfil.capa" class="img-fluid" alt="">
 
             </div>
 
@@ -80,6 +80,11 @@ export default {
     name: "DiamItem",
     props:{
         modelo: Object,
+    },
+    data(){
+        return{
+            img_url: 'https://api.erociti.com',
+        }
     },
     filters: {
         truncate: function(value, limit) {

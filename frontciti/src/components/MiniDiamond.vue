@@ -3,7 +3,7 @@
     <div class="item ">
 
         <router-link :to="'/'+modelo.perfil.city.state.code+'/'+modelo.perfil.city.slug+'/'+modelo.perfil.category+'/'+modelo.perfil.slug+'/'+modelo.perfil.code+'/'" class="wiz-card" style="margin: 1rem;">
-            <img class="img-fluid" :src="modelo.perfil.capa" alt="">
+            <img class="img-fluid" :src="img_url+modelo.perfil.capa" alt="">
 
             <div class="wiz-header d-flex justify-content-between">
                 <div class="wiz-diamond" style="position: absolute; top: 2px;" v-show="isDamond">
@@ -59,6 +59,11 @@
         props: {
             modelo: Object,
         },
+        data(){
+        return{
+            img_url: 'https://api.erociti.com',
+        }
+    },
         computed: {
             isDamond: function() {
                 if (this.modelo.membership.membership_type == "Diamond") {
