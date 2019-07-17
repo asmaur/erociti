@@ -57,7 +57,7 @@
         },
         data(){
         return{
-            img_url: 'https://api.erociti.com',
+            img_url: 'https://api.erociti.com/',
         }
     },
         computed: {
