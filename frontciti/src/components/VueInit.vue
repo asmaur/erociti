@@ -21,19 +21,19 @@
 
                         <p class="text-center"> <strong>Eu li e Concordo com os termos estabelecidos</strong> </p>
 
-                        <div class="alert alert-danger text-center" role="alert" style="font-size: 1.2rem;" v-show="visualise">
+                        <!--<div class="alert alert-danger text-center" role="alert" style="font-size: 1.2rem;" v-show="visualise">
                             Você não pode visualizar o conteúdo do site.
-                        </div>
+                        </div> -->
                         
-                        <div class="alert alert-info text-center" role="alert" style="font-size: 1.3rem;">
+                        <div class="alert alert-info text-center" role="alert" style="font-size: 1rem;">
                             Este site usa cookies. Ao continuar no site, você concorda com o uso de cookies.
                         </div>
 
 
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-danger mr-auto" id="sair" @click="menor">Não</button>
-                        <button type="submit" class="btn btn-warning" id="enter" @click="setCookie">Sou maior de idade</button>
+                        <a href="https://google.com" class="btn btn-info mr-auto" id="sair">Sair do site</a>
+                        <button type="submit" class="btn btn-danger" id="enter" @click="setCookie">Entrar no site</button>
                     </div>
                 </div>
             </div>
