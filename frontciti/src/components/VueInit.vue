@@ -13,11 +13,11 @@
 
                     </div>
                     <div class="modal-body">
-                        <p>Este site apresenta conteúdo voltado exclusivamente para o público adulto. Ao acessar você esta confirmando que tem <strong>18 anos ou mais</strong>.</p>
+                        <p>Este website contém nudez, conteúdo sexual explícito e linguagem adulta. Ele deve ser acessado apenas por pessoas que tenham idade legal no local físico de onde você está acessando o site. Ao acessar este site, você está confirmando para nós que é maior de idade e concorda com nossos Termos e Condições. Qualquer uso não autorizado deste site pode violar leis estaduais, federais e/ou estrangeiras.</p>
 
-                        <p>A amazura não é responsável por ações cometidas dentro ou fora da nossa página, qualquer ocorrência fica por compleata responsabilidade do individuo ou grupo de individuo, dos pais e/ou tutores legais.</p>
+                        <p>A EroCiti não é responsável por ações cometidas dentro ou fora da nossa página, qualquer ocorrência fica por completa responsabilidade do indivíduo ou grupo de indivíduo, dos pais e/ou tutores legais.</p>
 
-                        <p>Todas as fotografias são protegidas pela lei de direitos autorais. Não oferecemos serviços de natureza sexuais ou implícitos. Favor não insistir.</p>
+                        <p>A EroCiti tem uma política de tolerância zero em relação ao tráfico de seres humanos, prostituição e qualquer outra conduta ilegal. Nós cooperamos com a aplicação da lei, de acordo com o processo apropriado, como uma intimação, na investigação de atividades criminosas. Atividades que violam nossa política de tolerância zero podem resultar em uma referência à aplicação da lei. Você concorda e confirma não ter a intenção de usar este site em violação das políticas da EroCiti ou de qualquer lei federal, estadual ou municipal, e concordo em denunciar violações às autoridades competentes.</p>
 
                         <p class="text-center"> <strong>Eu li e Concordo com os termos estabelecidos</strong> </p>
 
@@ -26,7 +26,7 @@
                         </div>
                         
                         <div class="alert alert-info text-center" role="alert" style="font-size: 1.3rem;">
-                            Você é maior de idade?
+                            Este site usa cookies. Ao continuar no site, você concorda com o uso de cookies.
                         </div>
 
 
