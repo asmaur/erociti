@@ -6,7 +6,7 @@
            <div class="row">
                <div class="col-md-8 offset-md-2 text-center">
                   
-                   <h1 style="margin-top: 50%;">(404) Page Not Found</h1>
+                   <h1 style="margin-top: 45vh;">(404) Página Não Encontrada.</h1>
                    
                </div>
            </div>

@@ -12,9 +12,9 @@
                 </div>
                 <div class="col-md-4">
                     <button class="btn btn-primary btn-block" data-toggle="modal" data-target="#localize">
-                        <i class="fas fa-map-marker-alt"></i> 
-                        <b v-if="current">  {{current.name}}</b>
-                        <b v-else > Escolhe sua cidade </b>
+                        <font-awesome-icon icon="map-marker-alt" /> 
+                        <b v-if="current">{{current.name}}</b>
+                        <b v-else> Escolhe sua cidade </b>
                     </button>
                 </div>
 

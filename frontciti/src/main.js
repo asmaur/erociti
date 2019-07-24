@@ -47,12 +47,12 @@ import VueCookies from 'vue-cookies'
 Vue.use(VueCookies)
 
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faPhone, faFeatherAlt, faExclamationCircle, faPlus} from '@fortawesome/free-solid-svg-icons'
+import { faPhone, faFeatherAlt, faExclamationCircle, faPlus, faMapMarkerAlt} from '@fortawesome/free-solid-svg-icons'
 import { faStar, faGem,} from '@fortawesome/free-regular-svg-icons'
 import {faWhatsapp, faTwitter, faInstagram, faStudiovinari } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-library.add(faPhone, faTwitter, faWhatsapp, faInstagram, faFeatherAlt, faStar, faGem, faStudiovinari, faExclamationCircle, faPlus)
+library.add(faPhone, faTwitter, faWhatsapp, faInstagram, faFeatherAlt, faStar, faGem, faStudiovinari, faExclamationCircle, faPlus, faMapMarkerAlt)
  
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 

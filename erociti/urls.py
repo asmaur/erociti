@@ -18,9 +18,11 @@ from django.urls import path, include
 from django.views.generic import TemplateView
 
 urlpatterns = [
-    path("", include("apps.launch.urls")),
+    #path("", include("apps.launch.urls")),
     path('admin/', admin.site.urls),
-    path("citi-sandbox/", TemplateView.as_view(template_name="application.html"), name="app",),
+    path("", TemplateView.as_view(template_name="application.html"), name="app",),
+    #path("citi-sandbox/", TemplateView.as_view(template_name="application.html"), name="app", ),
+
 ]
 
 handler404 = 'apps.launch.views.error_404_view'
