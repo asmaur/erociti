@@ -21,8 +21,8 @@
                                     </div>
 
                                     <div class="wiz-item-info">
-                                        <h1>{{modelo.perfil.nome}} {{modelo.perfil.sobrenome}}</h1>
-                                        <em>idade: {{modelo.perfil.idade}} anos</em> <br>
+                                        <h1 style="text-transform: capitalize;">{{modelo.perfil.nome}} {{modelo.perfil.sobrenome}}</h1>
+                                        <em>Idade: {{modelo.perfil.idade}} anos</em> <br>
                                         <em>Cidade:  {{modelo.perfil.city.name}} -  <b style="text-transform: uppercase;">{{modelo.perfil.city.state.code}}</b> </em> <br>
 
                                     </div>
@@ -44,11 +44,11 @@
                                        <!-- <a href="https://t.me/ivy-salazar/text='Hello World'" target="_blank">
                                             <i class="fab fa-telegram fa-3x"></i>
                                         </a> -->
-                                        <a href="https://www.instagram.com/trexengenharia/" target="_blank" v-show="modelo.perfil.twitter">
+                                        <a :href="'https://www.instagram.com/'+modelo.perfil.twitter" target="_blank" v-show="modelo.perfil.twitter">
                                            <font-awesome-icon :icon="['fab', 'twitter']" size="3x" />
                                             
                                         </a>
-                                        <a href="https://www.instagram.com/trexengenharia/" target="_blank" v-show="modelo.perfil.instagram">
+                                        <a href="'https://www.instagram.com/'+modelo.perfil.instagram" target="_blank" v-show="modelo.perfil.instagram">
                                            <font-awesome-icon :icon="['fab', 'instagram']" size="3x" />
                                            
                                         </a>

@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
+import NProgress from 'nprogress'
 //import VueCookies from 'vue-cookies'
 
 Vue.use(Router)
@@ -124,5 +125,18 @@ let router = new Router({
 
   ]
 })
+
+
+router.beforeResolve((to, from, next) => {
+  if (to.path) {
+      
+    NProgress.start()
+  }
+  next()
+});
+
+router.afterEach(() => {
+  NProgress.done(true)
+});
 
 export default router;
