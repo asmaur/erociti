@@ -55,7 +55,7 @@ let router = new Router({
 
     },
         {
-            path: '/:cicode/:cislug/:category/:perslug/:perid(\\d+)/',
+            path: '/:cicode/:cislug/:category/:perslug/:perid/',
             name: 'profile',
             component: () => import( /* webpackChunkName: "about" */ './views/Profile.vue'),
 

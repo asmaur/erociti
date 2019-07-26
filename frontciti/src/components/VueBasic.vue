@@ -57,7 +57,7 @@
         methods:{
             
         },
-        mounted(){
+        created(){
             ax.get('subs/'+ this.cicode +'/'+ this.cislug+'/'+this.category+'/basic/', )
 			.then(response => { this.modelos = response.data})
         },

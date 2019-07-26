@@ -96,7 +96,7 @@
                 current: {},
             }
         },
-        mounted() {
+        created() {
             ax.get('state/all/', )
                 .then(response => {
                     this.locais = response.data
