@@ -28,14 +28,14 @@
                             <a :href="'tel:+'+per.phone" target="_blank" @click="MoreClick">
                                 <font-awesome-icon :icon="['fas', 'phone']" size="3x" />
                             </a>
-                            <a :href="'https://api.whatsapp.com/send?phone='+per.phone+'&text=Ol%C3%A1%2C%20'+per.nome+' '+per.sobrenome+'.%20Encontrei%20voc%C3%AA%20na%20Erociti.com.'" target="_blank" @click="MoreClick">
+                            <a :href="'https://api.whatsapp.com/send?phone='+per.phone+'&text=Ol%C3%A1%2C%20'+per.nome+' '+per.sobrenome+'.%20Encontrei%20voc%C3%AA%20na%20Erociti.'" target="_blank" @click="MoreClick">
                                 <font-awesome-icon :icon="['fab', 'whatsapp']" size="3x" />
                             </a>
 
-                            <a href="https://t.me/ivy-salazar/text='Hello World'" target="_blank" v-if="dados.twitter">
+                            <a :href="twitter(dados.twitter)" target="_blank" v-if="dados.twitter">
                                 <font-awesome-icon :icon="['fab', 'twitter']" size="3x" />
                             </a>
-                            <a href="https://t.me/ivy-salazar/text='Hello World'" target="_blank" v-if="dados.instagram">
+                            <a :href="instagram(dados.instagram)" target="_blank" v-if="dados.instagram">
                                 <font-awesome-icon :icon="['fab', 'instagram']" size="3x" />
                             </a>
 
@@ -267,7 +267,10 @@
             VueRelated,
         },
         
-         
+         computed:{
+           
+             
+         },
 
         data() {
             return {
@@ -308,6 +311,12 @@
                 ax.post("clics/"+this.per.id+'/more/')
                     .then()
             },
+            twitter(twi){
+                return 'https://twitter.com/'+twi.replace(/@/, '');
+            },
+            instagram(insta){
+                return 'https://instagram.com/'+insta.replace(/@/, '');
+            }
             
 
         },

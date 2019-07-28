@@ -66,21 +66,22 @@
     },
         computed: {
             isDamond: function() {
-                if (this.modelo.membership.membership_type == "Diamond") {
+                if (this.modelo.types == 3) {
                     return true;
                 } else {
                     return false;
                 }
             },
-            isTop: function() {
-                if (this.modelo.membership.membership_type == "Top") {
-                    return true;
-                } else {
-                    return false;
-                }
-            },
+           
             isDestak: function() {
-                if (this.modelo.membership.membership_type == "Destaque") {
+                if (this.modelo.types == 2) {
+                    return true;
+                } else {
+                    return false;
+                }
+            },
+             isTop: function() {
+                if (this.modelo.types == 1) {
                     return true;
                 } else {
                     return false;
