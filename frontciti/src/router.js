@@ -4,6 +4,8 @@ import Home from './views/Home.vue'
 import NProgress from 'nprogress'
 //import VueCookies from 'vue-cookies'
 
+import VueAnalytics from 'vue-analytics'
+
 Vue.use(Router)
 
 let access_token = function () {
@@ -138,5 +140,12 @@ router.beforeResolve((to, from, next) => {
 router.afterEach(() => {
   NProgress.done(true)
 });
+
+
+Vue.use(VueAnalytics, {
+  id: 'UA-143260985-1',
+  router
+})
+
 
 export default router;
