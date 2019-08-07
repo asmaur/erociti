@@ -64,7 +64,9 @@
 
                 </div>
 
-                <img :src="img_url+modelo.perfil.capa" class="img-fluid" alt="">
+                <img :src="img_url+modelo.perfil.capa" class="img-fluid" alt=""> 
+                
+             <!--   <img src="http://localhost:8000/media/WANUCLOUD/REF12343566578/b1e45ceb9fad47089d01d71d96200104.jpg" class="img-fluid" alt=""> -->
 
             </div>
 

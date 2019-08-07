@@ -61,7 +61,7 @@ export default {
     beforeUpdate(){
     $(document).ready(function() {
             $(".owl-carousel").owlCarousel({
-                items: 1,
+                //items: 1,
                 margin: 0,
                 //autoHeight:true,
                 nav: true,
@@ -69,9 +69,32 @@ export default {
                 autoplay: true,
                 autoplayTimeout: 3000,
                 responsive: {
-                    600: {
-                        items: 1,
-                    }
+                      0: {
+                            items: 1,
+                            dots: true,
+                        },
+                        // breakpoint from 480 up
+                        480: {
+                            items: 1,
+                            dots: true,
+                        },
+                        // breakpoint from 768 up
+                        768: {
+                            items: 1,
+                            dots: true,
+                        },
+                        1000: {
+                            items: 1,
+                            dots: true,
+                        },
+                        1440: {
+                            items: 1,
+                            dots: true,
+                        },
+                        2560: {
+                            items: 1,
+                            dots: true,
+                        },
                 }
             });
         

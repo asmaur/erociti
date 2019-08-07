@@ -31,11 +31,11 @@
 
 
                     <ul class="navbar-nav">
-                        <li class="nav-item">
+                        <li class="nav-item" style="padding: .3rem;">
                             <search-item />
                         </li>
 
-                        <li class="nav-item text-center" style="margin-left: 1.5rem; border: 2px solid #fff; margin-top: .2rem;">
+                        <li class="nav-item text-center" style="margin-left: 1.5rem; border: 2px solid #fff; margin-top: -0.2rem;">
                             <a href="https://www.ads.erociti.com" target="_blank" class="nav-link">Anuncie !</a>
                         </li>
 

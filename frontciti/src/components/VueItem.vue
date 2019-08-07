@@ -1,6 +1,6 @@
 <template>
 
-    <div class="col-sm-4">
+    <div class="col-sm-12 col-md-6 col-lg-4">
         <router-link :to="'/'+modelo.perfil.city.state.code+'/'+modelo.perfil.city.slug+'/'+modelo.perfil.category+'/'+modelo.perfil.slug+'/'+modelo.perfil.code+'/'" class="wiz-card" style="margin-top: 1rem;">
             <img class="img-fluid" :src="img_url+modelo.perfil.capa" alt="">
 

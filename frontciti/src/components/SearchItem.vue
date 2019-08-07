@@ -1,9 +1,9 @@
 <template>
     
-    <form class="form-inline wiz-search col-12" @submit.prevent="search">
+    <form class="form-inline wiz-search col-12" @submit.prevent="search" >
                    <div class="input-group" style="width: 100%;">
-                      <input type="text" class="form-control" name="q" v-model="q" placeholder="Entre um nome" aria-label="Recipient's username" aria-describedby="button-addon2">
-                      <select class="form-control col-4" id="exampleFormControlSelect1" name="cq" v-model="cq" >
+                      <input type="text" class="form-control" name="q" v-model="q" placeholder="Entre um nome" aria-label="Recipient's username" aria-describedby="button-addon2" required>
+                      <select class="form-control col-4" id="exampleFormControlSelect1" name="cq" v-model="cq" required>
                           <option value="mulheres">Mulheres</option>                          
                           <option value="homens">Homens</option>
                           <option value="transex">Transex</option>
