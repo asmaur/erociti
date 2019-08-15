@@ -21,14 +21,14 @@
                 <div class="wiz-vip" style="position: absolute; top: 2px; right: 0px;" v-show="modelo.perfil.is_vip">
                     <button class="btn btn-danger">
                        <font-awesome-icon :icon="['far', 'star']" />
-                        <span>VIP</span>
+                       <!-- <span>VIP</span> -->
                     </button>
                 </div>
 
                 <div class="wiz-vip" style="position: absolute; top: 2.5rem; right: 0px;" v-show="isTop">
                     <button class="btn btn-danger">
                        <font-awesome-icon :icon="['fab', 'studiovinari']" />
-                        <span>TOP</span>
+                       <!-- <span>TOP</span> -->
                     </button>
                 </div>
 
