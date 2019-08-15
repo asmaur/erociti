@@ -1,6 +1,6 @@
 <template>
 
-    <div class="col-sm-12 col-md-6 col-lg-4">
+    <div class="col-sm-12 col-md-6 col-lg-4" style="margin-top: 10px;">
         <router-link :to="'/'+modelo.perfil.city.state.code+'/'+modelo.perfil.city.slug+'/'+modelo.perfil.category+'/'+modelo.perfil.slug+'/'+modelo.perfil.code+'/'" class="wiz-card" style="margin-top: 1rem;">
             <img class="img-fluid" :src="img_url+modelo.perfil.capa" alt="">
 
@@ -21,14 +21,14 @@
                 <div class="wiz-vip" style="position: absolute; top: 2px; right: 0px;" v-show="modelo.perfil.is_vip">
                     <button class="btn btn-danger">
                        <font-awesome-icon :icon="['far', 'star']" />
-                        <!-- <i class="far fa-star"></i> --> <span>VIP</span>
+                        <!-- <i class="far fa-star"></i>  <span>VIP</span> -->
                     </button>
                 </div>
 
                 <div class="wiz-vip" style="position: absolute; top: 2.5rem; right: 0px;" v-show="isTop">
                     <button class="btn btn-danger">
                        <font-awesome-icon :icon="['fab', 'studiovinari']" />
-                       <!-- <i class="fab fa-studiovinari"></i> --> <span>TOP</span>
+                       <!-- <i class="fab fa-studiovinari"></i>  <span>TOP</span> -->
                     </button>
                 </div>
 

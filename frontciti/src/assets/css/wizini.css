@@ -233,9 +233,8 @@ red = #ED3146
 
   .wiz-card{
     position: relative;
-    height: 20rem;
+    height: 100%;
     width: 100%;
-    margin-top: .5rem;
     display: block;
    
 }
@@ -253,7 +252,7 @@ red = #ED3146
 
 .wiz-footer{
     position: absolute;
-    min-height: 70px;
+    height: 5rem;
     background-color: rgba(0,0,0,.4);
     bottom: 0px;
     z-index: 3;
@@ -261,15 +260,18 @@ red = #ED3146
     color: #fff;
     padding: .5rem;
     font-weight: 600;
+    font-size: 1rem !importante;
     
 }
 .wiz-footer h4{
-    font-weight: 800;
+    font-weight: 600;
+    font-size: 1rem;
 }
 .wiz-card img{
+    position: relative;
     height: 100%;
-    object-fit: cover;
     width: 100%;
+    object-fit: fill;
 }
 
 .wiz-item-contact{
