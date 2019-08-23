@@ -144,6 +144,7 @@ router.afterEach(() => {
 
 Vue.use(VueAnalytics, {
   id: 'UA-143260985-1',
+  //id: "dhdhdhd",
   router
 })
 

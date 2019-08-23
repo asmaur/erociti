@@ -71,13 +71,13 @@
 
                                     <ul class="list-group">
                                         <li class="list-group-item active text-center">Perfil</li>
-                                        <li class="list-group-item">Idade - {{per.idade}} anos</li>
-                                        <li class="list-group-item"> Altura - {{per.altura}} m</li>
-                                        <li class="list-group-item"> Peso - {{per.peso}} kg</li>
-                                        <li class="list-group-item">Peitos - {{dados.seios}}</li>
-                                        <li class="list-group-item"> Cabelos - {{dados.cabelo}}</li>
-                                        <li class="list-group-item"> Etnia - {{dados.etnia}}</li>
-                                        <li class="list-group-item" v-if="per.dote"> Cabelos - {{per.dote}} cm</li>
+                                        <li class="list-group-item" v-if="per.idade">Idade - {{per.idade}} anos</li>
+                                        <li class="list-group-item" v-if="per.altura"> Altura - {{per.altura}} m</li>
+                                        <li class="list-group-item" v-if="per.peso"> Peso - {{per.peso}} kg</li>
+                                        <li class="list-group-item" v-if="per.seios">Peitos - {{dados.seios}}</li>
+                                        <li class="list-group-item" v-if="per.cabelo"> Cabelos - {{dados.cabelo}}</li>
+                                        <li class="list-group-item" v-if="per.etnia"> Etnia - {{dados.etnia}}</li>
+                                        <li class="list-group-item" v-if="per.dote"> Dote - {{per.dote}} cm</li>
                                         <li class="list-group-item">
                                             <p class="mb-1">{{per.description}}</p>
 
@@ -214,12 +214,12 @@
 
                     <div class="row" id="wiz-galery">
                         <a :href="img_url+per.capa" class="col-sm-12 col-md-10 col-lg-10 item">
-                            <img class="img-fluid image scale-on-hover" id="wiz-large" :src="img_url+per.capa">
+                            <img class="img-fluid image scale-on-hover" id="wiz-large" :src="per.capa">
 
                         </a>
 
                         <a v-for="imag in fotos" :href="img_url+imag.image_erociti" :key="imag.id" class="col-sm-12 col-md-6 col-lg-4 item">
-                            <img class="img-fluid image scale-on-hover" :src="img_url+imag.image_erociti">
+                            <img class="img-fluid image scale-on-hover" :src="imag.image_erociti">
                         </a>
 
 
