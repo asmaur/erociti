@@ -18,6 +18,7 @@ let access_token = function () {
 }
 
 let router = new Router({
+    mode: 'history',
     routes: [
 
         {

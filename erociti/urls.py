@@ -19,8 +19,9 @@ from django.views.generic import TemplateView
 
 urlpatterns = [
     #path("", include("apps.launch.urls")),
-    path('admin/', admin.site.urls),
+    #path('admin/', admin.site.urls),
     path("", TemplateView.as_view(template_name="application.html"), name="app",),
+    re_path('^.*$', TemplateView.as_view(template_name="application.html"), name="app", ),
     #path("citi-sandbox/", TemplateView.as_view(template_name="application.html"), name="app", ),
 
 ]
