@@ -44,7 +44,7 @@ red = #ED3146
 .wiz-diamond-content{
     position: relative; 
     display: block; 
-    top: 65%;
+    top: 5rem;
 }
 .wiz-item-description{
     margin: .4rem;
