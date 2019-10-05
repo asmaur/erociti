@@ -15,7 +15,7 @@
 
              
                 
-                <div class="col-md-6 text-center">
+                <div class="col-md-6 text-right">
                    <h4>Newsletter</h4>
                     <p>Assina nossa e receba conteudo exclusivos.</p>
                     
@@ -25,26 +25,23 @@
                 </div>
 
 
-                <div class="col-sm-12 text-center">
+            </div>
+            
+            <div class="row">
+                <div class="col-12 col-md-8 text-left p-3">
+                    <p>saqqi &copy; {{ano}} | All right reserved.</p>
+                </div>
+                <div class="col-12 col-md-4 text-right p-3">
 
-                    <!--  <ul style="margin-top: 1rem;">
-                       <li>
-                           <a href="">Início</a>
-                       </li>
-                       <li>
-                           <a href="">Início</a>
-                       </li>
-                   </ul> -->
-
-                    <p style="padding: 1rem;">EroCiti Group &copy; {{ano}}  | Todos os direitos reservados.
-                        <br>
-
-                    </p>
-
+                    <a href="https://wanubit.com" target="_blank">
+                    <span> Design by </span>
+                        <img src="../assets/img/wanu.png" class="fluid-img" style="height: 20px; width: 20px; margin-left: 1rem;"> Wanubit
+                    </a>
 
                 </div>
-
             </div>
+            
+            
         </div>
 
     </div>
